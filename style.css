@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+    width: 200px;
+    padding: 20px;
+    border: 3px solid rgb(45, 252, 4);
+    margin: 30px;
+}
+
+h3 {
+    /* FLex select all row */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.mycontainer {
+    display: flex;
+}
+
+.mycontainer>div {
+    width: 50%;
+}
+
+.background {
+
+    background-color: #6C3FC7;
+    background-image: url(image1.jpg);
+    background-size: cover;
+
+    border-radius: 12px;
+    border: 2px solid #00C9B1;
+
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
